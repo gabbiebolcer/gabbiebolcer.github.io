@@ -11,3 +11,12 @@
 
 ## Resume:
  [resume link](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/Resume2.pdf)
+ 
+
+# Projects
+
+## Machine Learning What's for Dinner
+  [code](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/DecisionTree.java)
+
+## Two Way Directed Graph
+  [code](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/TwoWayDirectedGraph.java)
