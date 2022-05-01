@@ -1,3 +1,8 @@
+/*
+This program creates a Decision Tree that decides if someone will end up eating at a specific restaurant for dinner given a list of attributes about the restaurant such as 
+wait time, day of week, couisine served, price, reviews, and if the person ate at that restaurant. After all the various inputs are processed, this decides which attributes
+were most important in deciding what caused someone to eat at a specific restaurant. 
+*/
 package dinner.learn;
 
 import dinner.model.Decision;
@@ -26,7 +31,7 @@ public class DecisionTree {
                 and make a recursive call based on that?
             3. not quite sure what to do in this case
             4. if no attributes left, but both positive and negative outcomes-> you have noise and have to do something
-                with it, not sure what yet tho :D
+                with it
          */
         Attribute mostImportant = getMostImportantAttribute(examples, attributes);
         Map<Object, List<Example>> values = categorizeExamplesByAttributeValue(examples, mostImportant);
@@ -38,6 +43,8 @@ public class DecisionTree {
     }
 
     private static void createDecisionTreeHelper(List<Example> examples, List<Attribute> attributes, String parent, String incomingBranchName) {
+        /* Creates a decision Tree that can be nicely printed out for debugging purposes.
+        */
         Attribute mostImportant = getMostImportantAttribute(examples, attributes);
         Map<Object, List<Example>> values = categorizeExamplesByAttributeValue(examples, mostImportant);
         Map<Object, Integer> decs = new HashMap<>();
@@ -67,7 +74,8 @@ public class DecisionTree {
     }
 
     public static Attribute getMostImportantAttribute(List<Example> examples, List<Attribute> attributes) {
-        /* Identifies and returns the attribute that decides the most examples in `examples`
+        /* Identifies and returns the attribute that decides the most examples in `examples`. If an attribute made more 
+        decisions that the current maxDecisions, the maxDecisions is updated with that attribute. 
          */
         List<Double> numDecided = new ArrayList<>();
         List<Attribute> attributesDecided = new ArrayList<Attribute>();
@@ -87,6 +95,8 @@ public class DecisionTree {
     }
 
     private static Map<Object, List<Example>> categorizeExamplesByAttributeValue(List<Example> examples, Attribute attribute) {
+        /*Creates a map contining the attribute in the dataset and the examples that a example decided
+        */
         Map<Object, List<Example>> attributeExampleMap = new TreeMap<Object, List<Example>>();
         Object attributeValue;
         List<Example> valueExamples;
@@ -105,6 +115,8 @@ public class DecisionTree {
     }
 
     private static Map<Object, Map<Decision, Integer>> generateDecisionMap(List<Example> examples, Attribute attribute) {
+        /*Creates a Hashmap containing the amount of decisions made based on a specific attribute
+        */
         Map<Object, Map<Decision, Integer>> decisionMap = new HashMap<>();
         Map<Decision, Integer> decisionCountMap;
         Object attributeValue;
@@ -131,6 +143,9 @@ public class DecisionTree {
     }
     
     private static double getNumOutcomesDecided(Map<Object, Map<Decision, Integer>> decisionMap) {
+        /*
+        Figures out the number of outcomes decided by an attribute
+        */
         int numDecided = 0;
         for (Object attrValue : decisionMap.keySet()) {
             if (decisionMap.get(attrValue).keySet().size() == 1) {
