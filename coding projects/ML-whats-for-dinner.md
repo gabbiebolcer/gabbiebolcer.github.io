@@ -1,3 +1,11 @@
-
-## Machine Learning What's for Dinner
-  [code](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/DecisionTree.java)
+---
+layout: default
+title: ML What's for Dinner?
+---
+<div class="blurb">
+	<p>This was an assignment completed in my AI class which used machine learning to guess which attribute was the most important in deciding where
+    someone decided to eat for dinner. The algorithm was inputted a dataset with various information about the restaurant such as cousine type,
+  day of the week, estimated wait time, number of patrons, and decision of if the person at there or not. 
+  
+  My code for this project is [here](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/DecisionTree.java)</a></p>
+</div><!-- /.blurb -->
