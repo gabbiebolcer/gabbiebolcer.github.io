@@ -1,2 +1,4 @@
 theme: jekyll-theme-minimal
 permalink: /blog/:title
+name: Gabbie Bolcer
+markdown: kramdown
