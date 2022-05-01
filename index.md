@@ -24,5 +24,4 @@
 
 # Other Class Work
 
-In my final Theology class at the University of St. Thomas, I wrote a [paper](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/Other Class Assignment.pdf) discussing how Algorithms affect human relationships. During this class I realized that this was a topic that I was very passionate about as what I build at work has big implications on how people interact with one another. 
-  
+In my final Theology class at the University of St. Thomas, I wrote a [paper](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/Other%20Class%20Assignment.pdf) discussing how Algorithms affect human relationships. During this class I realized that this was a topic that I was very passionate about. As someone going to work in a tech field, I understand that I need to understand how what I'm building affects others. This could be understanding biases in what I build or, as this class showed me, understanding how something I build can change how people interact with one another and the effects that has on people's physical, emotional, and spiritual wellbeing. 
