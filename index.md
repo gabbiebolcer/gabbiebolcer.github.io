@@ -20,3 +20,9 @@
 
 ## Two Way Directed Graph
   [code](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/TwoWayDirectedGraph.java)
+  
+
+# Other Class Work
+
+In my final Theology class at the University of St. Thomas, I wrote a [paper](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/Other Class Assignment.pdf) discussing how Algorithms affect human relationships. During this class I realized that this was a topic that I was very passionate about as what I build at work has big implications on how people interact with one another. 
+  
