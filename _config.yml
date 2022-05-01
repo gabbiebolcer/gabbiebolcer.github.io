@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
-permalink: /blog/:title
+permalink: /blog/:year/:month/:day/:title
 name: Gabbie Bolcer
 markdown: kramdown
