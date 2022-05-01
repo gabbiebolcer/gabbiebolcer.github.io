@@ -7,5 +7,5 @@ title: Two Way Directed Graph
 using the two way graph that consisted of one uphill and then one downhill. The direction of the graph let described if the area between the current node and the next
 node was an uphill or downhill
   
-  My code for this project is [here](https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/TwoWayDirectedGraph.java)</a></p>
+  My code for this project is <a href="https://github.com/gabbiebolcer/gabbiebolcer.github.io/blob/master/TwoWayDirectedGraph.java">here</a></a></p>
 </div><!-- /.blurb -->
