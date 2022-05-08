@@ -1,7 +1,14 @@
 body {
     font-family: Georgia, Times, serif;
     color: purple;
-    background-color: #d8da3d
+    background-color: #c465e0
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -15,6 +22,6 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #c465e0;
 }
 a:hover {
