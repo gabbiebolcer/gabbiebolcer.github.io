@@ -1,6 +1,7 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    font-family: Georgia, Times, serif;
+    color: purple;
+    background-color: #d8da3d
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
