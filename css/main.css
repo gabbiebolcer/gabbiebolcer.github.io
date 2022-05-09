@@ -11,9 +11,6 @@ body {
   font-size: 30px;
   height: 20px;
 }
-.column {
-  float: left;
-}
 
 /* Left and right column */
 .column.side {
