@@ -7,8 +7,9 @@ body {
   padding: 20px;
   text-align: center;
   background: #f7f8fa;
-  color: white;
+  color: black;
   font-size: 30px;
+  height: 20px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
